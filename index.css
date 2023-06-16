@@ -1,19 +1,8 @@
-:root {
-    
-}
+
 
 body {
     margin: 0;
 
-}
-
-* {
-    border: 1px solid black;
-}
-
-main{
-    
-    
 }
 
 #hero-section {
@@ -83,11 +72,19 @@ main{
     height: 30px;
     border-radius: 6px;
     font-weight: bold;
+    border: none;
 }
 
 #random-info {
     padding: 0px 10%;
     text-align: center;
+
+}
+
+#random-info h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 
 }
 
@@ -116,11 +113,18 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: gray;
+    background: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+}
+#quote-section blockquote {
+    font-weight: light;
+    font-style: italic;
 }
 
 #quote-section p {
     text-align: right;
+    font-weight: bold;
 }
 
 #call-to-action {
@@ -130,6 +134,7 @@ main{
     align-items: flex-end;
     background: #3882F6;
     color: white;
+    font-size: 1.3em;
 }
 
 #call-to-action p {
