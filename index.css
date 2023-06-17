@@ -128,7 +128,10 @@ body {
 }
 
 #call-to-action {
-    padding: 4% 10%;
+    margin: 5% 10%;
+    height: 25vh;
+    padding-bottom: 3%;
+    border-radius: 5px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
